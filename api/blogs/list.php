@@ -47,8 +47,11 @@ try {
 
     $host = $_SERVER['HTTP_HOST'];
 
+    // $baseUrl =
+    //     $protocol . $host . "/backend/";
+
     $baseUrl =
-        $protocol . $host . "/backend/";
+    $protocol . $host . "/";
 
     /*
     |--------------------------------------------------------------------------
